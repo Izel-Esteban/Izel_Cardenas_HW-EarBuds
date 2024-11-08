@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Iz earbuds</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+  </head>
+  <body>
+    <model-viewer id="model" src="model/izalg.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+        <button class="Hotspot" slot="hotspot-1" data-position="0.06912401622054132m 6.047187946670456m -0.45844001773318077m" data-normal="0.2441417375950431m -0.1399490212869591m -0.959587975854687m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation" id="hotspot-1">
+            </div>
+        </button><button class="Hotspot" slot="hotspot-2" data-position="0.14457057292702538m 5.182363332518202m -0.31772501258011293m" data-normal="0.22161368846567586m -0.11697113271085717m -0.9680935529157177m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation"  id="hotspot-2"></div>
+
+        </button><button class="Hotspot" slot="hotspot-3" data-position="-0.6326539512891738m 5.932918702669256m 0.5795994370739443m" data-normal="-0.821861068173255m -0.043456088434086264m 0.5680281269436621m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation"  id="hotspot-3">
+            </div>
+        </button><button class="Hotspot" slot="hotspot-4" data-position="0.44920458879917136m 6.23515659950297m 0.7798501911542245m" data-normal="0.07400666136163524m -0.07912788272123211m 0.994113571102497m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation"  id="hotspot-4">
+            </div>
+        </button>
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+        <div id="ar-prompt">
+            <img src="ar_hand_prompt.png">
+        </div>
+      </model-viewer>  
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
